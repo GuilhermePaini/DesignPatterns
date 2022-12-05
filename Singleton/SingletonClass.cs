@@ -1,5 +1,6 @@
 ﻿namespace Singleton
 {
+    // Non-thread safe
     internal class SingletonClass
     {
         private SingletonClass() { }
