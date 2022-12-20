@@ -4,13 +4,14 @@
     {
         private IStrategy _strategy;
 
-        public Context()
-        {
-        }
-
         public void SetStrategy(IStrategy strategy)
         {
             this._strategy = strategy;
+        }
+
+        public Context()
+        {
+
         }
 
         public Context(IStrategy strategy)
